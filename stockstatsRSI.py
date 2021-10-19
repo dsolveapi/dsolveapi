@@ -6,8 +6,8 @@ import requests
 import pandas as pandas
 from stockstats import StockDataFrame
 
-#Daily "https://dsolvemern.herokuapp.com/api/dailyinterval/YOURAPIKEY"
-getYourApiData = requests.get("https://dsolvemern.herokuapp.com/api/weeklyinterval/YOURAPIKEY")
+#Daily "https://dsolveapi.herokuapp.com/api/dailyinterval/YOURAPIKEY"
+getYourApiData = requests.get("https://dsolveapi.herokuapp.com/api/weeklyinterval/YOURAPIKEY")
 YourApiData = getYourApiData.json()
 
 #Empty Boxes
