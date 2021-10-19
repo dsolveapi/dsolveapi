@@ -3,8 +3,8 @@ import requests
 import plotly.express
 import plotly.graph_objects as go
 
-#Bitcoin Weather Free "https://dsolvemern.herokuapp.com/api/bitcoinweatherfree/YOURAPIKEY"
-getYourApiData = requests.get("https://dsolvemern.herokuapp.com/api/bitcoinweather/YOURAPIKEY")
+#Bitcoin Weather Free "https://dsolveapi.herokuapp.com/api/bitcoinweatherfree/YOURAPIKEY"
+getYourApiData = requests.get("https://dsolveapi.herokuapp.com/api/bitcoinweather/YOURAPIKEY")
 YourApiData = getYourApiData.json()
 
 #Most Recent Date API Data
